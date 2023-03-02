@@ -4,7 +4,7 @@ import Band from './Band'
 export default function MetalMeta() {
 
     const bands = data.length // This is the number of bands in the JSON file
-    console.log(data)
+
     return (
         <div>
             Metal Bands 🤘
@@ -17,6 +17,7 @@ export default function MetalMeta() {
                     formed={band.formed}
                     origin={band.origin}
                     fans={band.fans}
+                    styles={band.style}
                     split={band.split}
                     />
                 ))}
