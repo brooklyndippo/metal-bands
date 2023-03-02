@@ -17,6 +17,7 @@ export default function MetalMeta() {
                 formed={band.formed}
                 origin={band.origin}
                 fans={band.fans}
+                split={band.split}
                 />
             ))}
             </div>
