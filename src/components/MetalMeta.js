@@ -9,17 +9,17 @@ export default function MetalMeta() {
         <div>
             Metal Bands 🤘
             Bands: {bands}
-            <div style={{"display": "flex", "flexWrap": "wrap", "margin": "2vw"}}>
-            {data.map((band => 
-                <Band 
-                key={band.band_name}
-                name={band.band_name}
-                formed={band.formed}
-                origin={band.origin}
-                fans={band.fans}
-                split={band.split}
-                />
-            ))}
+            <div id="band-grid" style={{"display": "grid", "gridTemplateColumns": "1fr 1fr 1fr"}}>
+                {data.map((band => 
+                    <Band 
+                    key={band.band_name}
+                    name={band.band_name}
+                    formed={band.formed}
+                    origin={band.origin}
+                    fans={band.fans}
+                    split={band.split}
+                    />
+                ))}
             </div>
         </div>
     )
