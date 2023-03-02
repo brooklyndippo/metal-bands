@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/metal-bands/static/css/main.073c9b0a.css",
-    "main.js": "/metal-bands/static/js/main.1e5248d5.js",
-    "static/js/787.d12eb7af.chunk.js": "/metal-bands/static/js/787.d12eb7af.chunk.js",
+    "main.js": "/metal-bands/static/js/main.18849548.js",
+    "static/js/787.be6f7a54.chunk.js": "/metal-bands/static/js/787.be6f7a54.chunk.js",
     "static/media/logo.svg": "/metal-bands/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/metal-bands/index.html",
     "main.073c9b0a.css.map": "/metal-bands/static/css/main.073c9b0a.css.map",
-    "main.1e5248d5.js.map": "/metal-bands/static/js/main.1e5248d5.js.map",
-    "787.d12eb7af.chunk.js.map": "/metal-bands/static/js/787.d12eb7af.chunk.js.map"
+    "main.18849548.js.map": "/metal-bands/static/js/main.18849548.js.map",
+    "787.be6f7a54.chunk.js.map": "/metal-bands/static/js/787.be6f7a54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.1e5248d5.js"
+    "static/js/main.18849548.js"
   ]
 }
