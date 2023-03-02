@@ -16,7 +16,7 @@ export default function Like() {
 
     return (
         <div>
-            <p>Likes: {likes}</p>
+            <p><strong>Likes: {likes}</strong></p>
             <button onClick={handleDecrement}>👎 Dislike</button>
             <button onClick={handleIncrement}>👍 Like</button>
         </div>
