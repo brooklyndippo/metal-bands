@@ -9,15 +9,17 @@ export default function MetalMeta() {
         <div>
             Metal Bands 🤘
             Bands: {bands}
-
+            <div style={{"display": "flex", "flexWrap": "wrap", "margin": "2vw"}}>
             {data.map((band => 
                 <Band 
+                key={band.band_name}
                 name={band.band_name}
                 formed={band.formed}
                 origin={band.origin}
                 fans={band.fans}
                 />
             ))}
+            </div>
         </div>
     )
     
